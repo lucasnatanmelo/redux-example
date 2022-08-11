@@ -1,0 +1,15 @@
+npm install redux react-redux @reduxjs/tookit
+
+Funções do Redux:
+  - store -> Armazenamento dos dados da aplicação (1 por aplicação)
+  - provider -> Disponibiliza a store em toda a aplicação
+  - reducers / slice -> ações específicas:
+    - actions / dispatches -> mudanças de estados nas variáveis
+    - selectors
+
+Configurações básicas:
+  - criar pasta redux:
+    - criar subpast com reducers:
+      - nelas terão os dados e funções iniciais 
+    - criar arquivo store:
+      - nele ficarão as informações de tipagens gerais do store com 
