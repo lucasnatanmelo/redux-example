@@ -1,4 +1,4 @@
-npm install redux react-redux @reduxjs/tookit
+npm install react-redux @reduxjs/toolkit
 
 Funções do Redux:
   - store -> Armazenamento dos dados da aplicação (1 por aplicação)
